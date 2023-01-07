@@ -12,9 +12,24 @@
 }
 
 .promo {
-    height: 789px;
-    background-image: url(../img/Rectangle\ 1.jpg);
+    height: 1000px;
+    width: 100%;
 
+
+}
+
+.peperoni {
+    width: 100%;
+    position: absolute;
+
+  
+}
+.lumpa{
+    height: 935px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.418);
 }
 
 .header {
@@ -22,12 +37,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 2;
+    position: relative;
 }
 
 .nav {
     display: flex;
     gap: 20px;
-
+   
 }
 
 .nav a {
@@ -39,7 +56,9 @@
 
 .promo h1 {
     font-size: 96px;
-    font-weight: 700;
+    font-weight: 700; 
+    position: relative;
+    z-index: 2;
     color: white;
     margin: 129px 0 40px;
 }
@@ -50,6 +69,8 @@ button {
     background: linear-gradient(97.71deg, #0499DD 0%, #17c1bc);
     border-radius: 60px;
     border: 0;
+    position: relative;
+    z-index: 2;
     color: white;
     font-size: 14px;
     cursor: pointer;
@@ -209,6 +230,3 @@ h2 {
     margin-bottom: 20px;
     color: #282828;
 }
-
-
-
